@@ -10,5 +10,5 @@ Automatically generate available data ！
 - 实现功能：
 具有统计word的字典，转换成单词云图片
 
-## [generate_password](https://github.com/luckysue/Generate_Data-and-Machine_Learning/blob/master/Python/data_generate/Generate_Data-and-Machine_Learning/Python/data_generate/generate_password.py)
+## [generate_passwd](https://github.com/luckysue/Generate_Data-and-Machine_Learning/blob/master/Python/data_generate/Generate_Data-and-Machine_Learning/Python/data_generate/generate_passwd.py)
 - 实现功能：生成密码
