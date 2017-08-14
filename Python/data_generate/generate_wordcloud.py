@@ -8,6 +8,6 @@ counts = {'Python':14,'Mysql':8,'C':6,'Machine Learning':7,'Lunix shell':4,
 counts = counts.items()
 
 tags = make_tags(counts, maxsize=120)
-create_tag_image(tags, 'cloud_large.png', size=(1200, 900), fontname='MicrosoftYaHei')
+create_tag_image(tags, 'cloud_large.png', size=(900, 600), fontname='MicrosoftYaHei')
 
 print('done !')
