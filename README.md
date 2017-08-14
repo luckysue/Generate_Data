@@ -6,10 +6,10 @@ Automatically generate available data ！
  2、获取字母对应数字
  3、获取数字对应字母
  
-## generate_wordclouds
+## generate_wordcloud
 - 实现功能：
 具有统计word的字典，转换成单词云图片
 
-## generate_passwords
+## generate_password
 - 实现功能：
 生成密码
