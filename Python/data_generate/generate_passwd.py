@@ -8,20 +8,6 @@ from os import urandom
 from random import choice
 
 ''''' 
-Linux正则命名参考：http://vbird.dic.ksu.edu.tw/linux_basic/0330regularex.php#lang 
-[:alnum:]   代表英文大小写字节及数字，亦即 0-9, A-Z, a-z 
-[:alpha:]   代表任何英文大小写字节，亦即 A-Z, a-z 
-[:blank:]   代表空白键与 [Tab] 按键两者 
-[:cntrl:]   代表键盘上面的控制按键，亦即包括 CR, LF, Tab, Del.. 等等 
-[:digit:]   代表数字而已，亦即 0-9 
-[:graph:]   除了空白字节 (空白键与 [Tab] 按键) 外的其他所有按键 
-[:lower:]   代表小写字节，亦即 a-z 
-[:print:]   代表任何可以被列印出来的字节 
-[:punct:]   代表标点符号 (punctuation symbol)，亦即：" ' ? ! ; : # $... 
-[:upper:]   代表大写字节，亦即 A-Z 
-[:space:]   任何会产生空白的字节，包括空白键, [Tab], CR 等等 
-[:xdigit:]  代表 16 进位的数字类型，因此包括： 0-9, A-F, a-f 的数字与字节 
-
 Python自带常量(本例中改用这个，不用手工定义了) 
 string.digits          #十进制数字：0123456789 
 string.octdigits       #八进制数字：01234567 
@@ -75,8 +61,6 @@ def print_string_constants():
     print(string.whitespace)
 
     print('\n\n')
-
-
 
 if __name__ == '__main__':
     # print_string_constants()
