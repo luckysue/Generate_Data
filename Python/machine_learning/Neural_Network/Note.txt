@@ -1,0 +1,10 @@
+输入层： 1 ；隐藏层： n ；输出层： 1   每层由单元组成
+
+权重 两层间的线
+
+神经节点
+
+Backpropagation 多层向前神经网络
+
+k-fold cross vilation
+

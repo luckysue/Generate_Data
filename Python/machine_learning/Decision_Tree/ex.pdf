@@ -1,0 +1,29 @@
+digraph Tree {
+	node [label="\N", shape=box];
+	graph [bb="0,0,476,484"];
+	0 [label="X[0] <= 0.5\nentropy = 0.9403\nsamples = 14\nvalue = [5, 9]", pos="302,442", width="1.78", height="0.94"];
+	1 [label="X[9] <= 0.5\nentropy = 1.0\nsamples = 10\nvalue = [5, 5]", pos="242,338", width="1.42", height="0.94"];
+	2 [label="X[1] <= 0.5\nentropy = 0.7219\nsamples = 5\nvalue = [4, 1]", pos="171,234", width="1.72", height="0.94"];
+	3 [label="entropy = 0.0\nsamples = 3\nvalue = [3, 0]", pos="52,130", width="1.44", height="0.72"];
+	4 [label="X[3] <= 0.5\nentropy = 1.0\nsamples = 2\nvalue = [1, 1]", pos="173,130", width="1.42", height="0.94"];
+	5 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]", pos="56,34", width="1.44", height="0.72"];
+	6 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]", pos="178,34", width="1.44", height="0.72"];
+	7 [label="X[4] <= 0.5\nentropy = 0.7219\nsamples = 5\nvalue = [1, 4]", pos="313,234", width="1.72", height="0.94"];
+	8 [label="X[1] <= 0.5\nentropy = 1.0\nsamples = 2\nvalue = [1, 1]", pos="303,130", width="1.42", height="0.94"];
+	9 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 1]", pos="302,34", width="1.44", height="0.72"];
+	10 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]", pos="424,34", width="1.44", height="0.72"];
+	11 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3]", pos="424,130", width="1.44", height="0.72"];
+	12 [label="entropy = 0.0\nsamples = 4\nvalue = [0, 4]", pos="363,338", width="1.44", height="0.72"];
+	0 -> 1 [labeldistance="2.5", labelangle=45, headlabel=True, pos="e,262,372 282,408 277,400 272,390 267,381"];
+	1 -> 2 [pos="e,194,268 219,304 213,296 206,286 200,276"];
+	2 -> 3 [pos="e,81,156 132,200 118,188 102,174 88,162"];
+	2 -> 4 [pos="e,172,164 172,200 172,192 172,183 172,174"];
+	4 -> 5 [pos="e,88,60 131,96 119,86 107,76 95,66"];
+	4 -> 6 [pos="e,177,60 175,96 175,87 176,78 176,70"];
+	1 -> 7 [pos="e,290,268 265,304 271,296 278,286 284,276"];
+	7 -> 8 [pos="e,306,164 310,200 309,192 308,182 307,173"];
+	8 -> 9 [pos="e,302,60 303,96 303,87 302,78 302,70"];
+	8 -> 10 [pos="e,391,60 346,96 358,86 371,75 384,66"];
+	7 -> 11 [pos="e,396,156 349,200 363,188 377,174 389,162"];
+	0 -> 12 [labeldistance="2.5", labelangle="-45", headlabel=False, pos="e,348,364 322,408 329,397 336,384 343,372"];
+}
