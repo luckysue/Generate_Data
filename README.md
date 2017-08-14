@@ -8,8 +8,8 @@ Automatically generate available data ！
  
 ## generate_wordcloud
 - 实现功能：
- - 具有统计word的字典，转换成单词云图片
+  - 具有统计word的字典，转换成单词云图片
 
 ## generate_password
 - 实现功能：
- - 生成密码
+   - 生成密码
